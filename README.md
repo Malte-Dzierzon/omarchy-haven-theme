@@ -3,13 +3,11 @@
 <br>
 
 ```bash
-omarchy theme install https://github.com/<user>/omarchy-haven-theme.git && omarchy theme set haven
+omarchy theme install https://github.com/<user>/omarchy-haven-theme.git
 ```
 
-![Haven Desktop](backgrounds/01-foggy-forest.jpg)
-![Haven Dark](backgrounds/07-stardust-peaks.png)
-
-> Screenshots double as wallpapers — replace with real desktop shots later if you like.
+![Haven Desktop](screenshot-desktop-1.png)
+![Haven Desktop](screenshot-desktop-2.png)
 
 <details>
 <summary>Wallpapers</summary>
@@ -113,4 +111,3 @@ This theme includes configurations for:
 MIT — see [LICENSE](LICENSE). Theme code is yours to use and remix.
 
 Wallpapers are **not mine** — sourced from wallhaven.cc, for personal use only. All credit belongs to the original artists.
-
