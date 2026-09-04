@@ -1,128 +1,78 @@
-# Haven — Omarchy Theme
+# Haven
 
-> **Muted abyss. Calm allrounder for everyday use.**
-> Desaturated blues & greens, foggy forests, mirrored mountains and stardust peaks — angenehm für den Alltag, nicht aufdringlich, überall stimmig.
+<br>
 
-![Haven Preview](preview.png)
+```bash
+omarchy theme install https://github.com/<user>/omarchy-haven-theme.git && omarchy theme set haven
+```
 
-**Repo:** `omarchy-haven-theme` → installiert als `haven` via `omarchy theme install`
+![Haven Desktop](backgrounds/01-foggy-forest.jpg)
+![Haven Dark](backgrounds/07-stardust-peaks.png)
 
-### Palette
+> Screenshots double as wallpapers — replace with real desktop shots later if you like.
 
-| Token | Hex | Use |
+<details>
+<summary><b>Wallpapers</b></summary>
+
+| | | |
 |---|---|---|
-| `background` | `#070e15` | Almost black teal |
-| `foreground` | `#b1d2d2` | Frosted cyan |
-| `accent` | `#97a6bb` | Muted slate blue (borders, highlights) |
-| `muted` | `#62676c` | Secondary |
-| `lighter_bg` | `#20262c` | Elevated surface |
-| `red` | `#857960` | Desaturated warm |
-| `green` | `#70806c` | Moss |
-| `yellow` | `#96937b` | Pale olive |
-| `blue` | `#97a6bb` | = accent |
-| `magenta` | `#6c7b91` | Dusty violet |
-| `cyan` | `#83a2a3` | Teal |
+| ![01](backgrounds/01-foggy-forest.jpg) `01-foggy-forest` | ![02](backgrounds/02-whale-abyss.jpg) `02-whale-abyss` | ![03](backgrounds/03-canyon-drift.jpg) `03-canyon-drift` |
+| ![04](backgrounds/04-mountain-mirror.jpg) `04-mountain-mirror` | ![05](backgrounds/05-bedroom-anime.png) `05-bedroom-anime` | ![06](backgrounds/06-cave-light.jpg) `06-cave-light` |
+| ![07](backgrounds/07-stardust-peaks.png) `07-stardust-peaks` | ![08](backgrounds/08-rain-study.jpg) `08-rain-study` | ![09](backgrounds/09-garden-cat.png) `09-garden-cat` |
+| ![10](backgrounds/10-cavern-core.png) `10-cavern-core` | ![11](backgrounds/11-summer-cloud.png) `11-summer-cloud` | ![12](backgrounds/12-forest-archer.png) `12-forest-archer` |
+| ![13](backgrounds/13-dusk-field.jpg) `13-dusk-field` | | |
 
-Dark mode only (`mode = "dark"`). Alle Farben sehr düşük-saturiert — low eye-strain, passt zu allen 13 Backgrounds.
+Cycle with `omarchy theme bg next`.
 
-Vollständige Palette in [`colors.toml`](colors.toml).
+</details>
 
-### What's included
+<details>
+<summary><b>Palette</b></summary>
 
-- `colors.toml` — canonical Omarchy palette (wird via templates zu Alacritty/Foot/Ghostty/Kitty/Neovim/Hyprland/etc. generiert)
-- `backgrounds/` — 13 Bilder, alle blau-grün abgestimmt aber divers (Allrounder-Mix):
-  ```text
-  01-foggy-forest.jpg      - Nebelwald, herbstlich, foggy (dein Hero-Bild)
-  02-whale-abyss.jpg       - Schwebender Wal über City, dystopisch, teal-grey
-  03-canyon-drift.jpg      - Goku/Canyon Sunset (einziger warmer Break - optional)
-  04-mountain-mirror.jpg   - Berg spiegelt sich im See, Mond
-  05-bedroom-anime.png     - Cozy anime bedroom, cluttered
-  06-cave-light.jpg        - Höhle mit Lichtschacht, Scifi-Ring
-  07-stardust-peaks.png    - Sternenberge nachts, Schnee
-  08-rain-study.jpg        - Regenfenster, Junge lernt
-  09-garden-cat.png        - Mädchen mit weißer Katze, Blumen
-  10-cavern-core.png       - Overgrown cavern core
-  11-summer-cloud.png      - Mädchen vor riesiger Cumulus-Wolke, Sommerblau
-  12-forest-archer.png     - Elf-Bogenschützin im Wald
-  13-dusk-field.jpg        - Silhouette Feld Sonnenuntergang, nebelig
-  omarchy.png              - kleines Logo für den Switcher
-  ```
-  Alle mit original Extension behalten, nur nummeriert + semantisch benannt. `omarchy theme bg next` cycliert durch.
-- `icons.theme` — `Yaru-blue` (passt perfekt zu slate-teal)
-- `btop.theme`, `chromium.theme` — angepasst auf Haven
-- `preview.png` / `preview-unlock.png` / `unlock.png` — Platzhalter, ersetze mit echtem Screenshot (`omarchy capture` oder `SUPER + SHIFT + P`)
-- `extras/` — optional: `alacritty.toml`, `kitty.conf` etc. und `waybar.css`, `wofi.css`, `zed`, `zellij` etc. Diese werden bei `omarchy theme install` **gedroppt/regeneriert**, deshalb nicht im Root. Wer sie lokal will: manuell aus `extras/` kopieren.
+| Swatch | Token | Hex |
+|---|---|---|
+| ![#070e15](https://placehold.co/15x15/070e15/070e15.png) | `background` | `#070e15` |
+| ![#b1d2d2](https://placehold.co/15x15/b1d2d2/b1d2d2.png) | `foreground` | `#b1d2d2` |
+| ![#97a6bb](https://placehold.co/15x15/97a6bb/97a6bb.png) | `accent` / `blue` | `#97a6bb` |
+| ![#62676c](https://placehold.co/15x15/62676c/62676c.png) | `muted` | `#62676c` |
+| ![#20262c](https://placehold.co/15x15/20262c/20262c.png) | `lighter_background` | `#20262c` |
+| ![#857960](https://placehold.co/15x15/857960/857960.png) | `red` | `#857960` |
+| ![#70806c](https://placehold.co/15x15/70806c/70806c.png) | `green` | `#70806c` |
+| ![#96937b](https://placehold.co/15x15/96937b/96937b.png) | `yellow` | `#96937b` |
+| ![#83a2a3](https://placehold.co/15x15/83a2a3/83a2a3.png) | `cyan` | `#83a2a3` |
+| ![#6c7b91](https://placehold.co/15x15/6c7b91/6c7b91.png) | `magenta` | `#6c7b91` |
 
-### Install
+Full palette in [`colors.toml`](colors.toml). Dark mode only.
 
-**Via Omarchy (empfohlen, GitHub):**
+</details>
 
-```bash
-# 1. Repo auf GitHub pushen als omarchy-haven-theme
-# 2. Auf Omarchy:
-omarchy theme install https://github.com/<user>/omarchy-haven-theme.git
-omarchy theme set haven
-omarchy theme bg next   # durch Backgrounds cyclen
-```
+<details>
+<summary><b>Included configurations</b></summary>
 
-Das Repo **muss** `omarchy-haven-theme` heißen (Konvention). `omarchy theme install` strippt `omarchy-` + `-theme` → `haven`.
+This theme includes configurations for:
 
-**Manuell lokal:**
+- Alacritty (`alacritty.toml`)
+- btop (`btop.theme`)
+- Cava (`cava_theme`)
+- Chromium (`chromium.theme`)
+- Foot (`foot.ini`)
+- Ghostty (`ghostty.conf`)
+- GTK (`gtk.css`)
+- Hyprland (`hyprland.conf`, `hyprland.lua`, `hyprlock.conf`)
+- Icons (`icons.theme`)
+- Kitty (`kitty.conf`)
+- Mako (`mako.ini`)
+- Neovim (`neovim.lua`)
+- Omarchy shell (`shell.toml`, `colors.toml`)
+- SwayOSD (`swayosd.css`)
+- Vencord / Vesktop (`vencord.theme.css`)
+- VSCode (`vscode.json`)
+- Walker (`walker.css`)
+- Warp (`warp.yaml`)
+- Waybar (`waybar.css`)
+- Wofi (`wofi.css`)
+- Zed (`aether.zed.json`)
+- Zellij (`zellij.kdl`)
+- Several Desktop Backgrounds (`backgrounds/`)
 
-```bash
-mkdir -p ~/.config/omarchy/themes
-cp -r omarchy-haven-theme ~/.config/omarchy/themes/haven
-omarchy theme set haven
-```
-
-### Anpassen
-
-Alle Farben in `colors.toml` ändern, dann neu setzen:
-
-```bash
-# nach Edit:
-omarchy theme set haven
-```
-
-Weitere App-Tweaks via `~/.config/omarchy/themed/*.tpl` Overrides möglich (siehe `omarchy.org/manual/making-your-own-theme`).
-
-Icons wechseln: `icons.theme` editieren (z.B. `Yaru-blue`, `Yaru-sage`, `Yaru-gray`).
-
-Bar Transparenz/Spacing: `shell.toml` im Theme-Root anlegen (siehe `/usr/share/omarchy/default/themed/shell.toml.tpl`).
-
-### Screenshots ersetzen
-
-```bash
-# Echten Preview generieren:
-omarchy capture screenshot   # oder Hyprshot
-# Dann nach preview.png kopieren (1800x1012 empfohlen, wie stock themes)
-# Und für Lockscreen:
-omarchy plymouth preview    # erstellt preview-unlock.png
-```
-
-Aktuelle `preview.png` ist nur Platzhalter.
-
-### Extras
-
-Der Ordner `extras/` enthält deine alten `alacritty.toml`, `foot.ini`, `ghostty.conf`, `kitty.conf`, `neovim.lua`, `hyprland.conf`, `waybar.css`, `wofi.css`, `walker.css`, `mako.ini`, `vencord`, `warp.yaml`, `zellij.kdl`, `zed` etc. Diese sind **nicht nötig** für `omarchy theme install` — sie werden automatisch aus `colors.toml` generiert. Lass sie im Repo nur dort, dokumentiere sie falls du sie teilen willst.
-
-### Credits
-
-- Palette von dir, generiert mit [Aether](https://github.com/bjarneo/aether) & manuell verfeinert
-- Backgrounds aus wallhaven.cc (IDs in git history bzw. alt: 1pk73w, 5w2wz9 etc.) — bitte Lizenzen der Original-Artists beachten wenn du das Theme public machst
-- Omarchy: https://omarchy.org
-
-### Lizenz
-
-MIT — siehe [LICENSE](LICENSE).
-
-### Warum "Haven"?
-
-Nicht nur blau-grün, nicht nur ein Motiv. 13 Bilder querbeet — Wald, Berge, City, Anime, Scifi, Himmel — aber alle im gleichen gedämpften Teal-Slate-Ton. `haven` = Zuflucht, calm, angenehm für Alltag. Kein knalliges Gamer-Theme, kein ultra-dark Hacker — einfach ein täglicher Rückzugsort. Passt zu Omarchy Nomen wie `catppuccin`, `everforest`, `nord`.
-
----
-
-**Before → After**
-
-- `omarchy-blue-green-theme` (generisch, 93M, wallhaven Namen, 22 files bloat) →
-- `omarchy-haven-theme` (`haven`, 13x `01-..` semantisch, 6 core files + extras, clean `colors.toml`, previews, README)
+</details>

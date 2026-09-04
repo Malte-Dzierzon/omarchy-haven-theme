@@ -1,0 +1,28 @@
+@define-color selected-text #c5dddd;
+@define-color text #97a6bb;
+@define-color base #070e15;
+@define-color border #83a2a3;
+@define-color foreground #97a6bb;
+@define-color background #070e15;
+
+
+@define-color hover #b1d2d2;
+@define-color accent #83a2a3;
+
+
+window .search-container,
+window .search {
+  background: alpha(@hover, 0.1);
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+window .search-container text { 
+    color: @selected-text;
+    caret-color: @selected-text;
+}
