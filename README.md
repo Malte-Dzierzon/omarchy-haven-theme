@@ -3,7 +3,7 @@
 <br>
 
 ```bash
-omarchy theme install https://github.com/<user>/omarchy-haven-theme.git
+omarchy theme install https://github.com/Malte-Dzierzon/omarchy-haven-theme.git
 ```
 
 ![Haven Desktop](screenshot-desktop-1.png)
