@@ -1,7 +1,10 @@
 mode = "dark"
 
 # Haven — muted abyss. Desaturated blue-green, allrounder, calm everyday.
-# Background #070e15 almost black-teal, foreground #b1d2d2 frosted cyan
+# Background #070e15 almost black-teal, foreground #e9efeb frosted cyan
+# Roles (same tones, distributed): blue #97a6bb = structure (borders, focus),
+# sand #bfae87 = action (active workspace, hover, pressed), sage #a4b89b = go/live,
+# teal #83a2a3 = secondary selection, olive #96937b = search/warning.
 
 accent = "#97a6bb"
 selection = "#20262c"
@@ -12,27 +15,27 @@ dark_background = "#050b10"
 darker_background = "#04070b"
 lighter_background = "#20262c"
 
-foreground = "#b1d2d2"
-dark_foreground = "#859e9e"
-light_foreground = "#bdd9d9"
-bright_foreground = "#c5dddd"
+foreground = "#e9efeb"
+dark_foreground = "#9aa7a1"
+light_foreground = "#eff3ef"
+bright_foreground = "#f3f7f3"
 
 red = "#857960"
 yellow = "#96937b"
 orange = "#978d78"
-green = "#70806c"
+green = "#82967f"
 cyan = "#83a2a3"
 blue = "#97a6bb"
 magenta = "#6c7b91"
 brown = "#5b5548"
 black = "#050b10"
-white = "#bdd9d9"
+white = "#eff3ef"
 
-bright_red = "#aa9e7c"
+bright_red = "#bfae87"
 bright_yellow = "#bbb999"
-bright_green = "#92a58b"
+bright_green = "#a4b89b"
 bright_cyan = "#a5c9ca"
 bright_blue = "#bbcce7"
 bright_magenta = "#8e9fbb"
 bright_black = "#62676c"
-bright_white = "#c5dddd"
+bright_white = "#f3f7f3"

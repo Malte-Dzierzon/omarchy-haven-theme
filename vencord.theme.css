@@ -12,18 +12,18 @@
         --color01: #050b10;
         --color02: #20262c;
         --color03: #62676c;
-        --color04: #859e9e;
-        --color05: #b1d2d2;
-        --color06: #aa9e7c;
+        --color04: #9aa7a1;
+        --color05: #e9efeb;
+        --color06: #bfae87;
         --color07: #96937b;
         --color08: #857960;
         --color09: #96937b;
         --color10: #978d78;
         --color11: #97a6bb;
-        --color12: #aa9e7c;
+        --color12: #bfae87;
         --color13: #83a2a3;
         --color14: #6c7b91;
-        --color15: #b1d2d2;
+        --color15: #e9efeb;
     --base00: var(--color00);
     --base01: var(--color01);
     --base02: var(--color02);
@@ -50,8 +50,8 @@
     --activity-card-background: var(--base01) !important;
     --background-accent: var(--base03) !important;
     --background-floating: var(--base02) !important;
-    --background-mentioned-hover: color-mix(in srgb, var(--base0B) 35%, var(--base01)) !important;
-    --background-mentioned: color-mix(in srgb, var(--base0B) 25%, var(--base01)) !important;
+    --background-mentioned-hover: color-mix(in srgb, var(--base0C) 35%, var(--base01)) !important;
+    --background-mentioned: color-mix(in srgb, var(--base0C) 25%, var(--base01)) !important;
     --background-message-highlight: var(--base02) !important;
     --background-message-hover: var(--base02) !important;
     --background-mod-strong: var(--base02) !important;
@@ -145,7 +145,7 @@
     --interactive-hover: var(--color07) !important;
     --interactive-muted: var(--base03) !important;
     --interactive-normal: var(--color07) !important;
-    --mention-background: color-mix(in srgb, var(--base0B) 30%, var(--base01)) !important;
+    --mention-background: color-mix(in srgb, var(--base0C) 30%, var(--base01)) !important;
     --mention-foreground: var(--base05) !important;
     --menu-item-danger-active-bg: var(--base08) !important;
     --menu-item-danger-hover-bg: var(--base08) !important;
@@ -314,7 +314,7 @@ div[class*="mentioned"],
 li[class*="mentioned"] {
     background: linear-gradient(
         90deg,
-        color-mix(in srgb, var(--base0A) 35%, var(--base01)) 0%,
+        color-mix(in srgb, var(--base0C) 35%, var(--base01)) 0%,
         var(--base01) 75%
     ) !important;
 }
@@ -322,7 +322,7 @@ div[class*="mentioned"]:hover,
 li[class*="mentioned"]:hover {
     background: linear-gradient(
         90deg,
-        color-mix(in srgb, var(--base0A) 45%, var(--base01)) 0%,
+        color-mix(in srgb, var(--base0C) 45%, var(--base01)) 0%,
         var(--base01) 75%
     ) !important;
 }

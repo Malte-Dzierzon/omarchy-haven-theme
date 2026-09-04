@@ -2,10 +2,10 @@
 theme[main_bg]="#070e15"
 
 # Main text color
-theme[main_fg]="#b1d2d2"
+theme[main_fg]="#e9efeb"
 
 # Title color for boxes
-theme[title]="#b1d2d2"
+theme[title]="#e9efeb"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#97a6bb"
@@ -17,30 +17,30 @@ theme[hi_fg]="#97a6bb"
 # dark background and is invisible-but-harmless on light backgrounds.
 theme[selected_bg]="#20262c"
 
-# Foreground color of selected item in processes box. Use #b1d2d2 so
+# Foreground color of selected item in processes box. Use #e9efeb so
 # the row text stays readable on the lighter_bg highlight; the previous
 # #97a6bb produced low-contrast blue-on-white in dark themes.
-theme[selected_fg]="#b1d2d2"
+theme[selected_fg]="#e9efeb"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#62676c"
 
 # Color of text appearing on top of graphs, i.e uptime and current network graph scaling.
-# #bdd9d9 caps at #ffffff when the foreground is already pure white, so we
-# just bind it to #b1d2d2 directly.
-theme[graph_text]="#b1d2d2"
+# #eff3ef caps at #ffffff when the foreground is already pure white, so we
+# just bind it to #e9efeb directly.
+theme[graph_text]="#e9efeb"
 
 # Background color of the percentage meters. Same fix as selected_bg - the
 # previous #20262c collapsed to the main fg.
 theme[meter_bg]="#20262c"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
-# Use #83a2a3 for a distinct accent instead of #bdd9d9 which capped to white.
+# Use #83a2a3 for a distinct accent instead of #eff3ef which capped to white.
 theme[proc_misc]="#83a2a3"
 
 # CPU, Memory, Network, Proc box outline colors
 theme[cpu_box]="#6c7b91"
-theme[mem_box]="#70806c"
+theme[mem_box]="#82967f"
 theme[net_box]="#857960"
 theme[proc_box]="#97a6bb"
 
@@ -48,7 +48,7 @@ theme[proc_box]="#97a6bb"
 theme[div_line]="#62676c"
 
 # Temperature graph color (Green -> Yellow -> Red)
-theme[temp_start]="#70806c"
+theme[temp_start]="#82967f"
 theme[temp_mid]="#96937b"
 theme[temp_end]="#857960"
 
@@ -73,7 +73,7 @@ theme[available_mid]="#857960"
 theme[available_end]="#857960"
 
 # Mem/Disk used meter (Green -> Teal -> Blue)
-theme[used_start]="#70806c"
+theme[used_start]="#82967f"
 theme[used_mid]="#83a2a3"
 theme[used_end]="#97a6bb"
 
@@ -83,7 +83,7 @@ theme[download_mid]="#857960"
 theme[download_end]="#857960"
 
 # Upload graph colors (Green -> Teal -> Blue)
-theme[upload_start]="#70806c"
+theme[upload_start]="#82967f"
 theme[upload_mid]="#83a2a3"
 theme[upload_end]="#97a6bb"
 

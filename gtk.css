@@ -1,25 +1,25 @@
     @define-color background     #070e15;
-    @define-color foreground     #b1d2d2;
+    @define-color foreground     #e9efeb;
     @define-color black          #050b10;
     @define-color red            #857960;
-    @define-color green          #70806c;
+    @define-color green          #82967f;
     @define-color yellow         #96937b;
     @define-color blue           #97a6bb;
     @define-color magenta        #6c7b91;
     @define-color cyan           #83a2a3;
-    @define-color white          #bdd9d9;
+    @define-color white          #eff3ef;
     @define-color bright_black   #62676c;
-    @define-color bright_red     #aa9e7c;
-    @define-color bright_green   #92a58b;
+    @define-color bright_red     #bfae87;
+    @define-color bright_green   #a4b89b;
     @define-color bright_yellow  #bbb999;
     @define-color bright_blue    #bbcce7;
     @define-color bright_magenta #8e9fbb;
     @define-color bright_cyan    #a5c9ca;
-    @define-color bright_white   #c5dddd;
+    @define-color bright_white   #f3f7f3;
 
-    @define-color accent_bg_color @blue;
+    @define-color accent_bg_color @bright_red;
     @define-color accent_fg_color @background;
-    @define-color accent_color @cyan;
+    @define-color accent_color @bright_red;
 
     @define-color window_bg_color @background;
     @define-color window_fg_color @foreground;
@@ -106,7 +106,8 @@
     }
 
     messagedialog button:hover {
-        background-color: @blue;
+        background-color: @bright_red;
+        color: @background;
     }
 
     banner revealer widget {

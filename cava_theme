@@ -7,5 +7,5 @@ gradient_color_3 = '#83a2a3'  # teal
 gradient_color_4 = '#97a6bb'  # slate accent
 gradient_color_5 = '#a5c9ca'  # bright teal
 gradient_color_6 = '#bbcce7'  # bright blue highlight
-gradient_color_7 = '#b1d2d2'  # frosted cyan
+gradient_color_7 = '#e9efeb'  # frosted cyan
 gradient_color_8 = '#20262c'  # deep anchor

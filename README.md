@@ -22,7 +22,6 @@ omarchy theme install https://github.com/<user>/omarchy-haven-theme.git && omarc
 | ![10](backgrounds/10-cavern-core.png) `10-cavern-core` | ![11](backgrounds/11-summer-cloud.png) `11-summer-cloud` | ![12](backgrounds/12-forest-archer.png) `12-forest-archer` |
 | ![13](backgrounds/13-dusk-field.jpg) `13-dusk-field` | | |
 
-Cycle with `omarchy theme bg next`.
 
 </details>
 
@@ -32,12 +31,12 @@ Cycle with `omarchy theme bg next`.
 | Swatch | Token | Hex |
 |---|---|---|
 | ![#070e15](https://placehold.co/15x15/070e15/070e15.png) | `background` | `#070e15` |
-| ![#b1d2d2](https://placehold.co/15x15/b1d2d2/b1d2d2.png) | `foreground` | `#b1d2d2` |
+| ![#e9efeb](https://placehold.co/15x15/e9efeb/e9efeb.png) | `foreground` | `#e9efeb` |
 | ![#97a6bb](https://placehold.co/15x15/97a6bb/97a6bb.png) | `accent` / `blue` | `#97a6bb` |
 | ![#62676c](https://placehold.co/15x15/62676c/62676c.png) | `muted` | `#62676c` |
 | ![#20262c](https://placehold.co/15x15/20262c/20262c.png) | `lighter_background` | `#20262c` |
 | ![#857960](https://placehold.co/15x15/857960/857960.png) | `red` | `#857960` |
-| ![#70806c](https://placehold.co/15x15/70806c/70806c.png) | `green` | `#70806c` |
+| ![#82967f](https://placehold.co/15x15/82967f/82967f.png) | `green` | `#82967f` |
 | ![#96937b](https://placehold.co/15x15/96937b/96937b.png) | `yellow` | `#96937b` |
 | ![#83a2a3](https://placehold.co/15x15/83a2a3/83a2a3.png) | `cyan` | `#83a2a3` |
 | ![#6c7b91](https://placehold.co/15x15/6c7b91/6c7b91.png) | `magenta` | `#6c7b91` |
@@ -76,3 +75,12 @@ This theme includes configurations for:
 - Several Desktop Backgrounds (`backgrounds/`)
 
 </details>
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE). Theme code is yours to use and remix.
+
+Wallpapers are **not mine** — sourced from wallhaven.cc, for personal use only. All credit belongs to the original artists.
+
