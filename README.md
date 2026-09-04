@@ -12,16 +12,46 @@ omarchy theme install https://github.com/<user>/omarchy-haven-theme.git && omarc
 > Screenshots double as wallpapers — replace with real desktop shots later if you like.
 
 <details>
-<summary><b>Wallpapers</b></summary>
+<summary>Wallpapers</summary>
 
-| | | |
-|---|---|---|
-| ![01](backgrounds/01-foggy-forest.jpg) `01-foggy-forest` | ![02](backgrounds/02-whale-abyss.jpg) `02-whale-abyss` | ![03](backgrounds/03-canyon-drift.jpg) `03-canyon-drift` |
-| ![04](backgrounds/04-mountain-mirror.jpg) `04-mountain-mirror` | ![05](backgrounds/05-bedroom-anime.png) `05-bedroom-anime` | ![06](backgrounds/06-cave-light.jpg) `06-cave-light` |
-| ![07](backgrounds/07-stardust-peaks.png) `07-stardust-peaks` | ![08](backgrounds/08-rain-study.jpg) `08-rain-study` | ![09](backgrounds/09-garden-cat.png) `09-garden-cat` |
-| ![10](backgrounds/10-cavern-core.png) `10-cavern-core` | ![11](backgrounds/11-summer-cloud.png) `11-summer-cloud` | ![12](backgrounds/12-forest-archer.png) `12-forest-archer` |
-| ![13](backgrounds/13-dusk-field.jpg) `13-dusk-field` | | |
+![01-foggy-forest](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/01-foggy-forest.jpg)
+`01-foggy-forest`
 
+![02-whale-abyss](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/02-whale-abyss.jpg)
+`02-whale-abyss`
+
+![03-canyon-drift](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/03-canyon-drift.jpg)
+`03-canyon-drift`
+
+![04-mountain-mirror](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/04-mountain-mirror.jpg)
+`04-mountain-mirror`
+
+![05-bedroom-anime](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/05-bedroom-anime.png)
+`05-bedroom-anime`
+
+![06-cave-light](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/06-cave-light.jpg)
+`06-cave-light`
+
+![07-stardust-peaks](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/07-stardust-peaks.png)
+`07-stardust-peaks`
+
+![08-rain-study](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/08-rain-study.jpg)
+`08-rain-study`
+
+![09-garden-cat](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/09-garden-cat.png)
+`09-garden-cat`
+
+![10-cavern-core](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/10-cavern-core.png)
+`10-cavern-core`
+
+![11-summer-cloud](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/11-summer-cloud.png)
+`11-summer-cloud`
+
+![12-forest-archer](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/12-forest-archer.png)
+`12-forest-archer`
+
+![13-dusk-field](https://raw.githubusercontent.com/Malte-Dzierzon/omarchy-haven-theme/master/backgrounds/13-dusk-field.jpg)
+`13-dusk-field`
 
 </details>
 
