@@ -1,3 +1,4 @@
+```ini
 # Main background, empty for terminal default, need to be empty if you want transparent background
 theme[main_bg]="#070e15"
 
@@ -39,9 +40,9 @@ theme[meter_bg]="#20262c"
 theme[proc_misc]="#83a2a3"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#6c7b91"
-theme[mem_box]="#82967f"
-theme[net_box]="#857960"
+theme[cpu_box]="#83a2a3"
+theme[mem_box]="#97a6bb"
+theme[net_box]="#bfae87"
 theme[proc_box]="#97a6bb"
 
 # Box divider line and small boxes line color
@@ -50,7 +51,7 @@ theme[div_line]="#62676c"
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#82967f"
 theme[temp_mid]="#96937b"
-theme[temp_end]="#857960"
+theme[temp_end]="#bfae87"
 
 # CPU graph colors (Teal -> Blue -> Purple)
 theme[cpu_start]="#83a2a3"
@@ -68,9 +69,9 @@ theme[cached_mid]="#83a2a3"
 theme[cached_end]="#6c7b91"
 
 # Mem/Disk available meter
-theme[available_start]="#96937b"
-theme[available_mid]="#857960"
-theme[available_end]="#857960"
+theme[available_start]="#82967f"
+theme[available_mid]="#96937b"
+theme[available_end]="#bfae87"
 
 # Mem/Disk used meter (Green -> Teal -> Blue)
 theme[used_start]="#82967f"
@@ -78,9 +79,9 @@ theme[used_mid]="#83a2a3"
 theme[used_end]="#97a6bb"
 
 # Download graph colors
-theme[download_start]="#96937b"
-theme[download_mid]="#857960"
-theme[download_end]="#857960"
+theme[download_start]="#83a2a3"
+theme[download_mid]="#97a6bb"
+theme[download_end]="#bfae87"
 
 # Upload graph colors (Green -> Teal -> Blue)
 theme[upload_start]="#82967f"
@@ -91,3 +92,4 @@ theme[upload_end]="#97a6bb"
 theme[process_start]="#83a2a3"
 theme[process_mid]="#97a6bb"
 theme[process_end]="#6c7b91"
+```

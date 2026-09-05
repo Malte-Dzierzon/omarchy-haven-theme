@@ -1,6 +1,6 @@
-name: Aether
+name: Haven
 accent: "#97a6bb"
-cursor: "#97a6bb"
+cursor: "#bfae87"
 background: "#070e15"
 foreground: "#e9efeb"
 details: darker
@@ -23,4 +23,4 @@ terminal_colors:
     blue:    "#bbcce7"
     magenta: "#8e9fbb"
     cyan:    "#a5c9ca"
-    white:   "#e9efeb"
+    white:   "#f3f7f3"

@@ -1,10 +1,11 @@
+# Haven — muted abyss
+# Desaturated blue-green, calm everyday palette.
+
 mode = "dark"
 
-# Haven — muted abyss. Desaturated blue-green, allrounder, calm everyday.
-# Background #070e15 almost black-teal, foreground #e9efeb frosted cyan
-# Roles (same tones, distributed): blue #97a6bb = structure (borders, focus),
-# sand #bfae87 = action (active workspace, hover, pressed), sage #a4b89b = go/live,
-# teal #83a2a3 = secondary selection, olive #96937b = search/warning.
+# ------------------------------------------------------------
+# Core semantic colors
+# ------------------------------------------------------------
 
 accent = "#97a6bb"
 selection = "#20262c"
@@ -20,6 +21,11 @@ dark_foreground = "#9aa7a1"
 light_foreground = "#eff3ef"
 bright_foreground = "#f3f7f3"
 
+
+# ------------------------------------------------------------
+# Base ANSI palette
+# ------------------------------------------------------------
+
 red = "#857960"
 yellow = "#96937b"
 orange = "#978d78"
@@ -28,8 +34,14 @@ cyan = "#83a2a3"
 blue = "#97a6bb"
 magenta = "#6c7b91"
 brown = "#5b5548"
+
 black = "#050b10"
 white = "#eff3ef"
+
+
+# ------------------------------------------------------------
+# Bright palette
+# ------------------------------------------------------------
 
 bright_red = "#bfae87"
 bright_yellow = "#bbb999"

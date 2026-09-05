@@ -1,8 +1,8 @@
 return {
   {
-    "bjarneo/aether.nvim",
+    "Malte-Dzierzon/heaven.nvim",
     branch = "v3",
-    name = "aether",
+    name = "heaven",
     priority = 1000,
     opts = {
       transparent = false,
@@ -27,31 +27,40 @@ return {
         purple     = "#6c7b91",
         brown      = "#5b5548",
 
-        bright_red    = "#bfae87",
-        bright_yellow = "#bbb999",
-        bright_green  = "#a4b89b",
-        bright_cyan   = "#a5c9ca",
-        bright_blue   = "#bbcce7",
-        bright_purple = "#8e9fbb",
+        bright_red     = "#bfae87",
+        bright_yellow  = "#bbb999",
+        bright_green   = "#a4b89b",
+        bright_cyan    = "#a5c9ca",
+        bright_blue    = "#bbcce7",
+        bright_purple  = "#8e9fbb",
 
-        accent               = "#97a6bb",
-        cursor               = "#e9efeb",
+        accent               = "#bfae87",
+        cursor               = "#bfae87",
         foreground           = "#e9efeb",
         background           = "#070e15",
-        selection             = "#20262c",
-        selection_foreground = "#e9efeb",
+        selection            = "#20262c",
+        selection_foreground = "#f3f7f3",
         selection_background = "#20262c",
       },
       on_highlights = function(hl, c)
-        hl.CursorLine = { bg = c.lighter_bg }
+        hl.CursorLine = { bg = "#97a6bb0c" }
         hl.CursorLineNr = { fg = c.bright_red, bold = true }
-        hl.LspReferenceText = { bg = c.selection, fg = c.bright_fg }
+
+        hl.LspReferenceText = {
+          bg = "#97a6bb20",
+          fg = c.bright_fg,
+        }
+
         hl.LspReferenceRead = hl.LspReferenceText
         hl.LspReferenceWrite = hl.LspReferenceText
+
         hl.SnacksPickerDir = { fg = c.muted }
         hl.SnacksPickerPathHidden = { fg = c.muted }
         hl.SnacksPickerPathIgnored = { fg = c.muted }
-        hl.SnacksPickerListCursorLine = { bg = c.lighter_bg }
+
+        hl.SnacksPickerListCursorLine = {
+          bg = "#97a6bb12",
+        }
       end,
     },
     config = function(_, opts)

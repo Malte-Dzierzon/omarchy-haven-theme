@@ -5,24 +5,26 @@
 @define-color foreground #e9efeb;
 @define-color background #070e15;
 
-
 @define-color hover #e9efeb;
 @define-color accent #bfae87;
 
 
 window .search-container,
 window .search {
-  background: alpha(@hover, 0.1);
+  background: alpha(@hover, 0.08);
   color: @foreground;
-  border: 1px solid alpha(@border, 0.5);
-  border-radius: 12px;
+
+  border: 1px solid alpha(@border, 0.45);
+  border-radius: 0;
+
   padding: 8px 12px;
   margin: 4px 0;
+
   font-size: 14px;
   font-weight: 500;
 }
 
-window .search-container text { 
-    color: @selected-text;
-    caret-color: @selected-text;
+window .search-container text {
+  color: @selected-text;
+  caret-color: @accent;
 }

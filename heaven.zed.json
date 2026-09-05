@@ -1,7 +1,8 @@
+```json
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "haven",
-  "author": "Aether",
+  "author": "Malte",
   "themes": [
     {
       "name": "Haven",
@@ -10,26 +11,26 @@
         "background": "#070e15",
         "border": "#62676c40",
         "border.variant": "#62676c60",
-        "border.focused": "#97a6bb",
+        "border.focused": "#bfae87",
         "border.selected": "#97a6bb80",
         "border.transparent": "#00000000",
         "border.disabled": "#62676c30",
 
-        "elevated_surface.background": "#20262c",
-        "surface.background": "#20262c",
+        "elevated_surface.background": "#101820",
+        "surface.background": "#0b131b",
 
         "element.background": "#20262c",
         "element.hover": "#62676c40",
-        "element.active": "#97a6bb30",
-        "element.selected": "#97a6bb25",
+        "element.active": "#bfae8730",
+        "element.selected": "#bfae8725",
         "element.disabled": "#62676c20",
 
         "drop_target.background": "#97a6bb20",
 
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#20262c",
-        "ghost_element.active": "#97a6bb30",
-        "ghost_element.selected": "#97a6bb25",
+        "ghost_element.active": "#bfae8730",
+        "ghost_element.selected": "#bfae8725",
         "ghost_element.disabled": "#62676c20",
 
         "text": "#e9efeb",
@@ -44,20 +45,20 @@
         "icon.placeholder": "#62676c",
         "icon.accent": "#bfae87",
 
-        "status_bar.background": "#20262c",
-        "title_bar.background": "#20262c",
-        "title_bar.inactive_background": "#20262c",
+        "status_bar.background": "#0b131b",
+        "title_bar.background": "#0b131b",
+        "title_bar.inactive_background": "#0b131b",
         "toolbar.background": "#070e15",
-        "tab_bar.background": "#20262c",
-        "tab.inactive_background": "#20262c",
+        "tab_bar.background": "#101820",
+        "tab.inactive_background": "#101820",
         "tab.active_background": "#070e15",
 
         "search.match_background": "#96937b40",
 
-        "panel.background": "#20262c",
-        "panel.focused_border": "#97a6bb",
+        "panel.background": "#0b131b",
+        "panel.focused_border": "#bfae87",
 
-        "pane.focused_border": "#97a6bb",
+        "pane.focused_border": "#bfae87",
 
         "scrollbar.thumb.background": "#62676c30",
         "scrollbar.thumb.hover_background": "#62676c60",
@@ -68,9 +69,9 @@
         "editor.foreground": "#e9efeb",
         "editor.background": "#070e15",
         "editor.gutter.background": "#070e15",
-        "editor.subheader.background": "#20262c",
-        "editor.active_line.background": "#20262c",
-        "editor.highlighted_line.background": "#97a6bb15",
+        "editor.subheader.background": "#0b131b",
+        "editor.active_line.background": "#97a6bb0c",
+        "editor.highlighted_line.background": "#97a6bb12",
         "editor.line_number": "#62676c",
         "editor.active_line_number": "#bfae87",
         "editor.invisible": "#62676c40",
@@ -168,9 +169,9 @@
 
         "players": [
           {
-            "cursor": "#e9efeb",
-            "selection": "#e9efeb60",
-            "background": "#97a6bb"
+            "cursor": "#bfae87",
+            "selection": "#bfae8740",
+            "background": "#bfae87"
           },
           {
             "cursor": "#83a2a3",
@@ -455,3 +456,4 @@
     }
   ]
 }
+```
