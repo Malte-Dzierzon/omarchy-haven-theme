@@ -94,22 +94,17 @@ This theme includes configurations for:
 - Foot (`foot.ini`)
 - Ghostty (`ghostty.conf`)
 - GTK (`gtk.css`)
-- Hyprland (`hyprland.conf`, `hyprland.lua`, `hyprlock.conf`)
 - Icons (`icons.theme`)
 - Kitty (`kitty.conf`)
 - Mako (`mako.ini`)
 - Neovim (`neovim.lua`)
 - Omarchy shell (`shell.toml`, `colors.toml`)
 - SwayOSD (`swayosd.css`)
-- Vencord / Vesktop (`vencord.theme.css`)
 - VSCode (`vscode.json`)
 - Walker (`walker.css`)
 - Warp (`warp.yaml`)
-- Waybar (`waybar.css`)
-- Wofi (`wofi.css`)
 - Zed (`aether.zed.json`)
 - Zellij (`zellij.kdl`)
-- Several Desktop Backgrounds (`backgrounds/`)
 
 </details>
 
