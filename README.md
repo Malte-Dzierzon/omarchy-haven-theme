@@ -1,4 +1,4 @@
-![Haven Banner](drawing.png)
+![Haven Banner](banner-heaven.png)
 
 ```bash
 omarchy theme install https://github.com/Malte-Dzierzon/omarchy-haven-theme.git
