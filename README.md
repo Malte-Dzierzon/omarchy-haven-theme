@@ -1,11 +1,11 @@
-![Haven Banner](banner-heaven.png)
+![Haven Banner](banner-heaven.webp)
 
 ```bash
 omarchy theme install https://github.com/Malte-Dzierzon/omarchy-haven-theme.git
 ```
 
-![Haven Desktop](screenshot-desktop-1.png)
-![Haven Desktop](screenshot-desktop-2.png)
+![Haven Desktop](screenshot-desktop-1.webp)
+![Haven Desktop](screenshot-desktop-2.webp)
 
 <details>
 <summary>Wallpapers — Landscapes</summary>
